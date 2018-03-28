@@ -13,3 +13,7 @@ end
 def move(board, position, letter="X")
   board[position] = letter
 end
+
+def valid_move?(board, index)
+  
+end
