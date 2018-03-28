@@ -9,3 +9,8 @@ end
 def input_to_index(input)
   position = input.to_i - 1
 end
+
+def move(board, position, letter="X")
+  board[position] = letter
+end
+
