@@ -15,5 +15,5 @@ def move(board, position, letter="X")
 end
 
 def valid_move?(board, index)
-  
+  return index <= 8  && index >= 0 &&  !position_taken?(board, index)
 end
